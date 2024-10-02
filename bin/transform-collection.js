@@ -61,6 +61,7 @@ program
     .option('-j, --input-version [version]', 'the version of the input collection format standard (v1 or v2)')
     .option('-o, --output <path>', 'target file path where the converted collection will be written')
     .option('-p, --output-version [version]', 'required version to which the collection is needed to be converted to')
+    .option('-f, --fill-variables', 'fills variables into each request')
     .option('-P, --pretty', 'Pretty print the output')
     .option('--retain-ids', 'Retain the request and folder IDs during conversion (collection ID is always retained)')
     .option('-w, --overwrite', 'Overwrite the output file if it exists')
